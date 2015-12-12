@@ -1,0 +1,11 @@
+total 15
+drwxr-xr-x 1 Ross 197610   0 Dec 12 21:04 ./
+drwxr-xr-x 1 Ross 197610   0 Dec 12 19:15 ../
+drwxr-xr-x 1 Ross 197610   0 Dec 12 21:06 .git/
+-rw-r--r-- 1 Ross 197610   8 Dec 12 20:43 .gitignore
+drwxr-xr-x 1 Ross 197610   0 Dec 12 20:43 assets/
+-rw-r--r-- 1 Ross 197610 458 Dec 12 20:58 homework.txt
+-rw-r--r-- 1 Ross 197610   0 Dec 12 20:43 index.html
+-rw-r--r-- 1 Ross 197610  15 Dec 12 19:16 README.md
+-rw-r--r-- 1 Ross 197610   0 Dec 12 21:06 sorted.txt
+drwxr-xr-x 1 Ross 197610   0 Dec 12 20:38 uploads/

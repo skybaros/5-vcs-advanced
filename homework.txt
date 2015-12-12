@@ -1,0 +1,21 @@
+1.
+
+-	git branch architecture
+	git checkout architecture
+-	mkdir assets
+	mkdir uploads
+	touch index.html
+-	git add -A
+	git commit -m "Added folders and index.html"
+-	touch assets/all.js
+	touch assets/css.js
+	touch uploads/js.js
+-	git add -A
+	git	commit -m "Added .js files"
+	git push -u origin architecture
+-	echo 'uploads' > .gitignore
+	git add .gitignore
+	git commit -m "Added .gitignore"
+-	git checkout master
+	git merge architecture
+	
