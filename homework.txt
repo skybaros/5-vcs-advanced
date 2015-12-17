@@ -27,5 +27,51 @@
 	git add -A
 	git commit -m "Added sorted.txt and homework.txt"
 -	git checkout experiment
-	git rebase master	
+	git rebase master
+	touch css.css
+	git add -A
+	git commit -m "Added css"
+	git checkout master
+-	git merge experiment
 	
+3.
+
+-	touch tag.txt > Leran tagging
+	git status
+-		git tag -a v1.1 -m "v1.1 version"
+	git tag
+	git show v1.1
+		git tag v1.2 -m "Another type of tag"
+	git add -A
+	git commit -m "Tagging"
+-	git push -u origin master
+
+4.
+
+-	git submodule add https://github.com/skybaros/2-command-line-intro
+	git status
+	cat .gitmodules
+-	git commit -m "First submodule is here (2-command-line)"
+	git log -l
+	git push -u origin master
+	
+5.
+
+-	git branch gh-pages
+	git checkout gh-pages
+-	git add index1.html 
+-	git commit -m "Trying out gh-pages"
+	git push -u origin master
+-	http://skybaros.github.io/5-vcs-advanced/
+	
+6.
+
+-	git add stuff.txt
+	git commit "Working in master"
+-	git branch sample
+	git checkout
+	(видалив 1 рядок і вставив новий в кінець)
+-	git merge sample
+-	(конфлікт)
+-	git merge --abort
+-	git merge sample
